@@ -1,0 +1,26 @@
+########## Base de datos ##########
+spring:
+  datasource:
+    password: 
+    url: jdbc:mysql://localhost:3306/mydb?useSSL=false
+    username: root
+
+########## Loggin ##########
+logging:
+  level:
+    es.tcsa: INFO
+
+########## Tokens ##########
+#app:
+#  jwtSecret: oaerREbY55jRHzZNC6NFfapIhe3NfyGqiV01yQlSwIOo
+#  jwtExpirationInMs: 7200000
+  
+########## Oauth ##########  
+#security:
+#      oauth2:
+#        client:
+#          registration:
+#            google:
+#              clientId: 260147938607-g753236nne1k7rppo0mffji40ei5lut4.apps.googleusercontent.com
+#              clientSecret: Zm7YuB7VLja7u_mSbTSAxmAl
+#              redirectUriTemplate: "{baseUrl}/oauth2/callback/{registrationId}"
